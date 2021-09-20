@@ -28,7 +28,7 @@
       <tbody>
         <?php
 
-        $conexion = mysqli_connect("localhost", "root", "changeme", "SG");
+        $conexion = mysqli_connect("localhost", "user", "changeme", "SG");
 
         $cadenaSQL = "select * from s_customer";
 	$sentencia = mysqli_prepare($cadenaSQL);
